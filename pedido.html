@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANGI´S</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="box_navegacao">
+        <h1>VANGI´S</h1>
+        <nav>
+            <ul>
+                <a href="index.html"><li>VOLTAR AO INÍCIO</li></a>
+                <a href="cardapio.html"><li>CARDÁPIO</li></a>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <h1>FAÇA SEU <br> PEDIDO!</h1> <img src="img/pizzaola.webp" alt="" align="right">
+    </section>
+    <section class="formulario">
+        <form method="get" action="acompedido.html" target="_self">
+            <label><span style="color: red;">*</span>Informe seu nome: </label>
+            <input type="text" nome="nome" placeholder="Nome"><br><br>
+            <label><span style="color: red
+                ;">*</span>Informe seu número: </label>
+            <input type="number" nome="email" placeholder="(00)00000-0000" maxlength="10"><br><br>
+            <label><span style="color: red
+                ;">*</span>Informe seu endereço: </label>
+            <input type="text" nome="endereço" placeholder="Rua, Estevão Ferreira, 69"><br><br>
+            <label>Selecione o SABOR da PIZZA: </label>
+            <select name="select">
+                <option value="Calabresa">CALABRESA</option>
+                <option value="Frango">FRANGO</option>
+                <option value="Carneseca" selected="CARNE SECA">CARNE SECA</option>
+                <option value="Portuguesa">PORTUGUESA</option>
+            </select><br><br>
+            <label>Selecione o TAMANHO da PIZZA: </label>
+            <select name="select">
+                <option value="familia" selected="FAMILIA">FAMILIA</option>
+                <option value="grande">GRANDE</option>
+                <option value="media">MÉDIA</option>
+                <option value="pequena">PEQUENA</option>
+            </select><br><br>
+            <label>Selecione a forma de PAGAMENTO: </label>
+            <select name="select">
+                <option value="Pix" selected="PIX">PIX</option>
+                <option value="CARTÃO">CARTÃO</option>
+                <option value="avista">A VISTA</option>
+            </select><br><br>
+            <input value="FAZER PEDIDO" type="submit" nome="botao" class="botao">
+        </form>
+    </section>
+    <footer>
+        <section class="box_footer_um">
+            <ul>
+                <a href="https://www.linkedin.com/in/donckz" target="_blank"><li>VICTOR SOUZA</li></a>
+                <a href="https://www.linkedin.com/in/anne-gabriele-521898202/" target="_blank"><li>ANNE FLÔR</li></a>
+                <a href="https://www.linkedin.com/in/nelsonmartins2001" target="_blank"><li>NELSON MARTINS</li></a>
+                <a href="https://www.linkedin.com/in/gabriel-nogueira-49aa17266" target="_blank"><li>GABRIEL NOGUEIRA</li></a>
+                <a href="https://instagram.com/ihagonelisson?igshid=ZDdkNTZiNTM=" target="_blank"><li>IHAGO NELISSON</li></a>
+            </ul>
+            <section class="victor">
+                <p>Desenvolvido por <a href="https://github.com/Donckz" style="text-decoration: none; font-weight: bolder; color: aqua;" target="_blank">Victor Souza</a> &copy; Direitos Reservados.</p>
+            </section>
+        </section>
+    </footer>
+</body>
+</html>

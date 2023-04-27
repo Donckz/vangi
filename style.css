@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+body {
+    margin: 0;
+}
+
+.box_navegacao {
+    font-family: 'Poppins', sans-serif;
+    background-color: #24363b;
+    display: flex;
+    justify-content: right;
+    padding-top: 8px;
+    padding-bottom: 15px;
+}
+
+.box_navegacao h1 {
+    font-family: 'Castoro Titling', cursive;
+    color: white;
+    position: fixed;
+    width: 150px;
+    margin-left: -350px;
+    margin-right: 1150px;
+    margin-top: 10px;
+    font-size: 35px;
+}
+.box_navegacao nav ul {
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+}
+
+.box_navegacao nav ul a li {
+    padding-right: 20px;
+    top: 0;
+}
+
+.box_navegacao nav ul a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.box_navegacao nav ul a:hover{
+    color: #83bdff;
+}
+
+.main h1{
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5rem;
+    margin-left: 50px;
+    color: rgb(12, 85, 85);
+}
+
+.main .pedidola{
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    color: rgb(12, 85, 85);
+}
+
+.h2zao {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(12, 85, 85);
+    font-weight: bold;
+    position: relative;
+    margin-top: -340px;
+    text-align: right;
+    margin-right: 220px;
+    letter-spacing: 2px;
+}
+
+.formulario {
+    font-family: 'Poppins', sans-serif;
+    margin-top: -230px;
+    margin-left: 460px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #545555;
+    width: 400px;
+    padding: 10px;
+
+}
+
+.formulario input {
+    width: 98%;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.botao {
+    border-radius: 10px;
+}
+
+.botao:hover {
+    color: #fff;
+    background-color: red;
+}
+
+span {
+    color: rgb(28, 179, 179);
+}
+
+span:hover {
+    color: rgb(77, 95, 95);
+    text-decoration: underline;
+}
+
+.main img {
+    margin-top: -250px;
+    margin-right: 2rem;
+    width: 400px;
+}
+
+.pedido {
+    position: absolute;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 10px;
+    border: 1px solid rgb(19, 15, 15);
+    border-radius: 20px;
+    background-color: rgb(18, 24, 18);
+    color: #fff;
+}
+
+.pedido a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pedido:hover {
+    background-color: #264b3b;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc;
+    font-size: 18px;
+}
+
+
+.box_footer_um h1{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    color: rgb(58, 57, 57);
+    letter-spacing: 2px;
+
+}
+
+.box_footer_um ul a{
+    font-weight: bold;
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+}
+.box_footer_um ul a:hover{
+    color: rgb(19, 87, 66);
+}
+
+.box_footer_um ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.victor {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    background-color: #222222;
+    color: #fff;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    text-align: center;
+    letter-spacing: 2px;
+}
